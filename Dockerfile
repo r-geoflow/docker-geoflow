@@ -98,5 +98,11 @@ ENV RENV_PATHS_CACHE=renv/.cache
 # Restore the R environment
 RUN R -e "renv::restore()"
 
+# Copy the R script into the container
+COPY run_geoflow.R /usr/local/bin/run_geoflow.R
+
+# Make the script executable
+RUN chmod +x /usr/local/bin/run_geoflow.R
+
 # Set the entry point to execute the geoflow workflow
-ENTRYPOINT ["R", "-e", "geoflow::executeWorkflow(commandArgs(trailingOnly=TRUE)[1])"]
+ENTRYPOINT ["R", "-e", "/usr/local/bin/run_geoflow.R"]
