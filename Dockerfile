@@ -105,4 +105,4 @@ COPY run_geoflow.R /usr/local/bin/run_geoflow.R
 RUN chmod +x /usr/local/bin/run_geoflow.R
 
 # Set the entry point to execute the geoflow workflow
-ENTRYPOINT ["R", "/usr/local/bin/run_geoflow.R"]
+ENTRYPOINT ["Rscript", "/usr/local/bin/run_geoflow.R"]
