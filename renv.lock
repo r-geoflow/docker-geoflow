@@ -1390,6 +1390,7 @@
         "yaml",
         "XML",
         "xml2",
+        "rdflib",
         "curl",
         "whisker",
         "mime",
@@ -1446,7 +1447,7 @@
       "RemoteRepo": "geoflow",
       "RemoteUsername": "r-geoflow",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1eb8e2e279a904572cd7c5a93059066c36edadf6",
+      "RemoteSha": "fd93abce55ee5bd11b5581aae2a71ca5762c2076",
       "NeedsCompilation": "no",
       "Author": "Emmanuel Blondel [aut, cre, cph] (<https://orcid.org/0000-0002-5870-5762>), Julien, Barde [aut] (<https://orcid.org/0000-0002-3519-6141>), Wilfried Heintz [aut] (<https://orcid.org/0000-0002-9244-9766>), Alexandre Bennici [aut] (<https://orcid.org/0000-0003-2160-3487>), Sylvain Poulain [ctb], Bastien Grasset [ctb], Jeroen Ooms [ctb], Yvan Le Bras [ctb], Emilie Lerigoleur [ctb]"
     },
