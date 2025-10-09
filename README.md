@@ -29,7 +29,7 @@ docker run --rm -v "$(pwd):/data" -v "$(pwd)/geoflow-jobs:/srv/geoflow/jobs" ghc
 With this command:
 
 * a local directory `geoflow-jobs` will be created (if not existing) in the current working directory (`${pwd}`)
-* the geoflow job sub-directory created within the Docker container will be copied to the `geoflow-jobs` directory.
+* the `geoflow` job sub-directory created within the Docker container will be copied to the `geoflow-jobs` directory.
 
 In this way you can run `geoflow` as Docker command line service (as "black-box") while persisting the outputs in your machine.
 
