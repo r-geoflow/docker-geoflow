@@ -1,5 +1,8 @@
 # docker-geoflow
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Build Status](https://github.com/r-geoflow/docker-geoflow/actions/workflows/docker-build-image.yml/badge.svg?branch=main)](https://github.com/r-geoflow/docker-geoflow/actions/workflows/docker-build-image.yml)
+
 The `docker-geoflow` provides a way to run the [geoflow](https://github.com/r-geoflow/geoflow) as Docker container / command line. The image exposes the `geoflow::executeWorkflow` main R function used to execute geoflows from a configuration file (JSON or YAML).
 
 ## Pull the `geoflow` Docker image
