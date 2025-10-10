@@ -1,4 +1,4 @@
-FROM rocker/shiny:4.3.0
+FROM rocker/shiny:4.5.1
 
 LABEL org.opencontainers.image.title="geoflow"
 LABEL org.opencontainers.image.url="https://github.com/r-geoflow/docker-geoflow"
@@ -10,7 +10,6 @@ LABEL org.opencontainers.image.authors="Emmanuel Blondel <eblondel.pro@gmail.com
 RUN apt-get update && apt-get install -y \
     sudo \
     pandoc \
-    pandoc-citeproc \
     texlive-xetex \
     texlive-latex-base \
     texlive-latex-recommended \
