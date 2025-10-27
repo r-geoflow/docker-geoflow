@@ -2451,7 +2451,7 @@
     },
     "geoflow": {
       "Package": "geoflow",
-      "Version": "1.0.0.9001",
+      "Version": "1.0.0.9002",
       "Source": "GitHub",
       "Date": "2025-10-27",
       "Title": "Orchestrate Geospatial (Meta)Data Management Workflows and Manage FAIR Services",
@@ -2528,8 +2528,8 @@
       "RemoteHost": "api.github.com",
       "RemoteRepo": "geoflow",
       "RemoteUsername": "r-geoflow",
-      "RemoteRef": "1.0.0.9001",
-      "RemoteSha": "a867a3e32304de2c68bf55697eb2ea9e710a9cbb",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "87c3694a9a496cf1e47b34f87e8acb8c4c03bb38",
       "NeedsCompilation": "no",
       "Author": "Emmanuel Blondel [aut, cre, cph] (ORCID: <https://orcid.org/0000-0002-5870-5762>), Julien, Barde [aut] (ORCID: <https://orcid.org/0000-0002-3519-6141>), Wilfried Heintz [aut] (ORCID: <https://orcid.org/0000-0002-9244-9766>), Alexandre Bennici [ctb], Sylvain Poulain [ctb], Bastien Grasset [ctb], Mathias Rouan [ctb], Emilie Lerigoleur [ctb], Yvan Le Bras [ctb], Jeroen Ooms [ctb]"
     },
