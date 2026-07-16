@@ -6,6 +6,11 @@ LABEL org.opencontainers.image.source="https://github.com/r-geoflow/docker-geofl
 LABEL org.opencontainers.image.description="A Docker service to run geoflows"
 LABEL org.opencontainers.image.authors="Emmanuel Blondel <eblondel.pro@gmail.com>"
 
+# Set thread environment variables
+ENV OMP_NUM_THREADS=1 \
+    OPENBLAS_NUM_THREADS=1 \
+    MKL_NUM_THREADS=1
+
 # system libraries for LaTeX reporting & keyring
 RUN apt-get update && apt-get install -y \
     sudo \
