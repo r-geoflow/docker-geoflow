@@ -1,8 +1,8 @@
 FROM rocker/shiny:4.5.1
 
 LABEL org.opencontainers.image.title="geoflow"
-LABEL org.opencontainers.image.url="https://github.com/r-geoflow/docker-geoflow"
-LABEL org.opencontainers.image.source="https://github.com/r-geoflow/docker-geoflow"
+LABEL org.opencontainers.image.url="https://github.com/r-geoflow/geoflow-docker"
+LABEL org.opencontainers.image.source="https://github.com/r-geoflow/geoflow-docker"
 LABEL org.opencontainers.image.description="A Docker service to run geoflows"
 LABEL org.opencontainers.image.authors="Emmanuel Blondel <eblondel.pro@gmail.com>"
 
